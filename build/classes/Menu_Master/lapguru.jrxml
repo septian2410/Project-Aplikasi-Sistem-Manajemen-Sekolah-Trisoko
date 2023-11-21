@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="900" pageHeight="660" columnWidth="860" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a49554cc-4178-4fa2-8d6e-3daafc558f9b">
+	<property name="ireport.zoom" value="0.9090909090909152"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     tb_data_guru.`nip` AS tb_data_guru_nip,
+     tb_data_guru.`nm_guru` AS tb_data_guru_nm_guru,
+     tb_data_guru.`mapel` AS tb_data_guru_mapel,
+     tb_data_guru.`jenis_kelamin` AS tb_data_guru_jenis_kelamin,
+     tb_data_guru.`ttl` AS tb_data_guru_ttl,
+     tb_data_guru.`asal` AS tb_data_guru_asal,
+     tb_data_guru.`agama` AS tb_data_guru_agama,
+     tb_data_guru.`telpon` AS tb_data_guru_telpon,
+     tb_data_guru.`alamat` AS tb_data_guru_alamat
+FROM
+     `tb_data_guru` tb_data_guru]]>
+	</queryString>
+	<field name="tb_data_guru_nip" class="java.lang.String"/>
+	<field name="tb_data_guru_nm_guru" class="java.lang.String"/>
+	<field name="tb_data_guru_mapel" class="java.lang.String"/>
+	<field name="tb_data_guru_jenis_kelamin" class="java.lang.String"/>
+	<field name="tb_data_guru_ttl" class="java.sql.Date"/>
+	<field name="tb_data_guru_asal" class="java.lang.String"/>
+	<field name="tb_data_guru_agama" class="java.lang.String"/>
+	<field name="tb_data_guru_telpon" class="java.lang.String"/>
+	<field name="tb_data_guru_alamat" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="172" splitType="Stretch">
+			<image>
+				<reportElement uuid="3da1fbe6-eca4-40f7-a865-7ab060aec2d6" x="30" y="4" width="239" height="104"/>
+				<imageExpression><![CDATA["C:\\Users\\pandu\\OneDrive\\Dokumen\\Program KKP\\(Backup APK (data Barang))\\Aplikasi_Sistem_Manajemen_Sekolah_Yayasan_Trisoko\\save image\\real image trisok 1.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="12e73221-d404-4a97-a06d-689f7bb850a6" x="263" y="91" width="375" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Telepon / Fax : (021) 8095130 Email: smptrisokojakarta@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="34b1f1d3-8965-435e-94f3-973fc6da42de" x="314" y="8" width="252" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[YAYASAN PERGURUAN TRISOKO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5b8299d4-97da-4cb9-91f3-60852dbad40b" x="314" y="31" width="250" height="34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMP TRISOKO ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="77e85bc1-5e0d-47d5-9da3-8227d1f2a876" x="151" y="65" width="600" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Jalan Dukuh IV No. 12B, Dukuh, Kramatjati, RT.5/RW.1, Dukuh, Kec. Kramat jati, Kota Jakarta Timur]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="05791681-e220-4513-ae33-b29071f28ad8" x="317" y="123" width="250" height="41"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA GURU]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="7b131222-e81f-46be-83df-c39bf8d6154c" x="-1" y="123" width="854" height="1"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="8" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="0" y="11" width="142" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="142" y="11" width="153" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="395" y="11" width="88" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="295" y="11" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="595" y="11" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="483" y="11" width="112" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="695" y="11" width="66" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="761" y="11" width="100" height="20"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="d3c78689-7ca4-4118-956d-6b3f8e91f4bc" x="0" y="11" width="142" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9965c48-b5ed-4744-9607-e1d301c169ff" x="142" y="11" width="153" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="986be005-4b30-4286-9af7-ddd1e99d5e3f" x="295" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Mata Pelajaran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="191d7284-f4a5-4337-a8a4-e1df48e77292" x="395" y="11" width="88" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Jenis Kelamin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2b2d7c51-a170-4a57-8dce-2423240b0485" x="483" y="11" width="112" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tanggal Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ad5add14-1fd6-4404-8b97-0589191db496" x="595" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Asal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9ad1f221-8910-45a0-a27d-bd03d4afc1c7" x="761" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No.Telp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ad5add14-1fd6-4404-8b97-0589191db496" x="695" y="11" width="66" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Agama]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="695" y="0" width="66" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="142" y="0" width="153" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="761" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="0" y="0" width="142" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="595" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="483" y="0" width="112" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="395" y="0" width="88" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="295" y="0" width="100" height="20"/>
+			</rectangle>
+			<textField>
+				<reportElement uuid="0e293951-32e9-4a31-a7db-0678812d0b68" x="0" y="0" width="142" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_nip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="22f23b62-42cf-44a4-a489-ce8bb17c3d9f" x="295" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_mapel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="022732cb-6e94-41c8-b060-f6bb63962cf5" x="395" y="0" width="88" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_jenis_kelamin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f8558f59-22d5-406a-8ab1-e9984ac77ac7" x="595" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_asal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1b5c771c-107b-41b2-8a09-7f0d19beca0c" x="695" y="0" width="66" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_agama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="c8ea559d-b8f9-4652-a4d9-2a030f54a171" x="761" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_telpon}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement uuid="95499f02-636b-4c6d-bd8d-bdd3896f438f" x="483" y="0" width="112" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_ttl}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="300e8bd7-f666-4529-91c2-dd807ad94edd" x="142" y="0" width="153" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_data_guru_nm_guru}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="139" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="9cddcffa-c2d9-4905-8ccb-258f0e0417da" x="705" y="100" width="216" height="20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[(NIP :				)]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="a70b2ab6-3fab-4116-a2be-95cdd03d2553" x="749" y="0" width="136" height="20"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("EEEE dd MMMM yyyy", new java.util.Locale("id")).format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="e3b83861-4c4f-44ce-9c89-a0ebd14eaea2" x="705" y="80" width="127" height="20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Kepala Sekolah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a39caeaa-eae1-4725-be00-a8abd6a23517" x="705" y="22" width="72" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Mengetahui, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="05dd3195-4eaf-48f1-aea4-a7433d998e7b" x="699" y="0" width="47" height="20"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Jakarta,]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

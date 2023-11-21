@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="972a60b6-c90c-4dcf-bb73-a68318c858fc">
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     spp.`id_spp` AS spp_id_spp,
+     spp.`tahun` AS spp_tahun,
+     spp.`nominal` AS spp_nominal,
+     spp.`uts` AS spp_uts,
+     spp.`uas` AS spp_uas,
+     spp.`seragam` AS spp_seragam,
+     spp.`buku` AS spp_buku
+FROM
+     `spp` spp]]>
+	</queryString>
+	<field name="spp_id_spp" class="java.lang.Integer"/>
+	<field name="spp_tahun" class="java.lang.Integer"/>
+	<field name="spp_nominal" class="java.lang.Integer"/>
+	<field name="spp_uts" class="java.lang.Integer"/>
+	<field name="spp_uas" class="java.lang.Integer"/>
+	<field name="spp_seragam" class="java.lang.Integer"/>
+	<field name="spp_buku" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8c7b662a-707e-4dcc-be20-85aa08fe4378">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     pembayaran.`kode` AS pembayaran_kode,
+     pembayaran.`harga1` AS pembayaran_harga1,
+     pembayaran.`harga2` AS pembayaran_harga2,
+     pembayaran.`harga3` AS pembayaran_harga3,
+     pembayaran.`hasil` AS pembayaran_hasil
+FROM
+     `pembayaran` pembayaran]]>
+	</queryString>
+	<field name="pembayaran_kode" class="java.lang.Integer"/>
+	<field name="pembayaran_harga1" class="java.lang.Integer"/>
+	<field name="pembayaran_harga2" class="java.lang.Integer"/>
+	<field name="pembayaran_harga3" class="java.lang.Integer"/>
+	<field name="pembayaran_hasil" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="124" y="41" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="224" y="41" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="324" y="41" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="24" y="41" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="424" y="41" width="100" height="20"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="d9965c48-b5ed-4744-9607-e1d301c169ff" x="24" y="41" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kode Pembayaran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d3c78689-7ca4-4118-956d-6b3f8e91f4bc" x="124" y="41" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Barang 1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="986be005-4b30-4286-9af7-ddd1e99d5e3f" x="224" y="41" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Barang 2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2b2d7c51-a170-4a57-8dce-2423240b0485" x="324" y="41" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Barang 3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="191d7284-f4a5-4337-a8a4-e1df48e77292" x="424" y="41" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="324" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="424" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="124" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="224" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="06ed9343-6b61-4cdf-829c-78283f101373" x="24" y="0" width="100" height="20"/>
+			</rectangle>
+			<textField>
+				<reportElement uuid="a6c673bb-e8ce-4457-b5b2-c71c8eafff26" x="24" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pembayaran_kode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="97437d12-d895-4519-ad16-82b383cb3e6f" x="124" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pembayaran_harga1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ef5f78b5-f954-42d4-8602-932d8a0e03f1" x="224" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pembayaran_harga2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="830dabd7-39fe-4359-80db-b5ec7fcf420a" x="324" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pembayaran_harga3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7ae4759a-3480-461a-9260-bb323b17c815" x="424" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pembayaran_hasil}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="800" pageHeight="660" columnWidth="760" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a49554cc-4178-4fa2-8d6e-3daafc558f9b">
+	<property name="ireport.zoom" value="1.0000000000000029"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     tb_jadwal.`kd_jadwal` AS tb_jadwal_kd_jadwal,
+     tb_jadwal.`kd_kelas` AS tb_jadwal_kd_kelas,
+     tb_jadwal.`kelas` AS tb_jadwal_kelas,
+     tb_jadwal.`nip` AS tb_jadwal_nip,
+     tb_jadwal.`nm_guru` AS tb_jadwal_nm_guru,
+     tb_jadwal.`mapel` AS tb_jadwal_mapel,
+     tb_jadwal.`hari` AS tb_jadwal_hari,
+     tb_jadwal.`jam` AS tb_jadwal_jam
+FROM
+     `tb_jadwal` tb_jadwal]]>
+	</queryString>
+	<field name="tb_jadwal_kd_jadwal" class="java.lang.String"/>
+	<field name="tb_jadwal_kd_kelas" class="java.lang.String"/>
+	<field name="tb_jadwal_kelas" class="java.lang.String"/>
+	<field name="tb_jadwal_nip" class="java.lang.String"/>
+	<field name="tb_jadwal_nm_guru" class="java.lang.String"/>
+	<field name="tb_jadwal_mapel" class="java.lang.String"/>
+	<field name="tb_jadwal_hari" class="java.lang.String"/>
+	<field name="tb_jadwal_jam" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="172" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="05791681-e220-4513-ae33-b29071f28ad8" x="202" y="131" width="390" height="41"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA JADWAL PELAJARAN]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="7b131222-e81f-46be-83df-c39bf8d6154c" x="-1" y="131" width="761" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="77e85bc1-5e0d-47d5-9da3-8227d1f2a876" x="114" y="70" width="607" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Jalan Dukuh IV No. 12B, Dukuh, Kramatjati, RT.5/RW.1, Dukuh, Kec. Kramat jati, Kota Jakarta Timur]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="3da1fbe6-eca4-40f7-a865-7ab060aec2d6" x="-1" y="11" width="139" height="104"/>
+				<imageExpression><![CDATA["C:\\Users\\pandu\\OneDrive\\Dokumen\\Program KKP\\(Backup APK (data Barang))\\Aplikasi_Sistem_Manajemen_Sekolah_Yayasan_Trisoko\\save image\\real image trisok 1.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="34b1f1d3-8965-435e-94f3-973fc6da42de" x="277" y="11" width="237" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[YAYASAN PERGURUAN TRISOKO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="12e73221-d404-4a97-a06d-689f7bb850a6" x="218" y="95" width="375" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Telepon / Fax : (021) 8095130 Email: smptrisokojakarta@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5b8299d4-97da-4cb9-91f3-60852dbad40b" x="266" y="33" width="250" height="34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMP TRISOKO ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="8" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="30" y="11" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="130" y="11" width="141" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="411" y="11" width="128" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="271" y="11" width="140" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="639" y="11" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="539" y="11" width="100" height="20"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="d3c78689-7ca4-4118-956d-6b3f8e91f4bc" x="30" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kelas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9965c48-b5ed-4744-9607-e1d301c169ff" x="130" y="11" width="141" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="986be005-4b30-4286-9af7-ddd1e99d5e3f" x="271" y="11" width="140" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Guru]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="191d7284-f4a5-4337-a8a4-e1df48e77292" x="411" y="11" width="128" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Mata Pelajaran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2b2d7c51-a170-4a57-8dce-2423240b0485" x="539" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hari ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ad5add14-1fd6-4404-8b97-0589191db496" x="639" y="11" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Jam]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="130" y="0" width="141" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="30" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="639" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="539" y="0" width="100" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="411" y="0" width="128" height="20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement uuid="2416baa6-3dfa-42da-90ed-9f382be06757" x="271" y="0" width="140" height="20"/>
+			</rectangle>
+			<textField>
+				<reportElement uuid="e8764b56-5cbd-4058-a955-a0b72fb0f0e3" x="30" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_kelas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7587b9d3-f367-42bc-9f95-92da84729ccd" x="130" y="0" width="141" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_nip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="92f6e174-707a-4a6a-b47a-eb29be4efab3" x="271" y="0" width="140" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_nm_guru}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ea0be963-1633-447a-be07-860962951e06" x="411" y="0" width="128" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_mapel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b0b6f464-9931-4ea8-868c-3089c7fd614a" x="539" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_hari}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3d95b0a5-c646-4223-95b0-ca9455ae5cf6" x="639" y="0" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tb_jadwal_jam}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="139" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="a39caeaa-eae1-4725-be00-a8abd6a23517" x="605" y="22" width="72" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Mengetahui, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="05dd3195-4eaf-48f1-aea4-a7433d998e7b" x="599" y="0" width="47" height="20"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Jakarta,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e3b83861-4c4f-44ce-9c89-a0ebd14eaea2" x="605" y="80" width="127" height="20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Kepala Sekolah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9cddcffa-c2d9-4905-8ccb-258f0e0417da" x="605" y="100" width="216" height="20"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[(NIP :				)]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="a70b2ab6-3fab-4116-a2be-95cdd03d2553" x="649" y="0" width="136" height="20"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("EEEE dd MMMM yyyy", new java.util.Locale("id")).format(new Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

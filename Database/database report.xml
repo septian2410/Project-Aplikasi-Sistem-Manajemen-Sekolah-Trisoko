@@ -1,0 +1,75 @@
+<?xml version="1.0"?><!-- iReport connections -->
+<iReportConnectionSet>
+	<iReportConnection name="Database Manajemen Data Sekolah" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[root]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.mysql.jdbc.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:mysql://localhost/db_datasekolah]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="data_sekolah" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[root]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.mysql.jdbc.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:mysql://localhost:3306/data_sekolah]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="data_sekolah_revisi" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[org.postgresql.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:postgresql://localhost:5432/db_datasekolah]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="data_sekolah_revisi" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[org.postgresql.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:postgresql://localhost:3306/db_datasekolah]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="data_sekolah_baru" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[root]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.mysql.jdbc.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:mysql://localhost/db_datasekolah]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="data_sekolah2" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[false]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[org.postgresql.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:postgresql://localhost:5432/db_datasekolah2]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="datasekolah_baru" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[root]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.mysql.jdbc.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:mysql://localhost/datasekolah_new]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="datasekolah_new" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[root]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.mysql.jdbc.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:mysql://localhost/datasekolah_new]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[]]></connectionParameter>
+	</iReportConnection>
+</iReportConnectionSet>
