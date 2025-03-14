@@ -48,6 +48,6 @@ ini adalah Project Kuliah Kerja Praktek (KKP) yang dilaksanakan di sekolah Triso
 ![Menu (Data Pembayaran Non-SPP).png](https://www.dropbox.com/s/8ugwvfinujtslhz/Menu%20%28Data%20Pembayaran%20Non-SPP%29.png?dl=0&raw=1)
 
 ## License
-Pandu Septiandito, Since 2022
+Pandu Septiandito, Jakarta, Since 2022
 
 
