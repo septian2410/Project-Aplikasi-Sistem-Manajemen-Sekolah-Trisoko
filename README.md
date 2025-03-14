@@ -30,11 +30,11 @@ ini adalah Project Kuliah Kerja Praktek (KKP) yang dilaksanakan di sekolah Triso
 #
 ## Showcase Application
 ------
-1. Login 
+## 1. Login 
 ![Login APK (kesiswaan).png](https://www.dropbox.com/s/igxsbu0rhwjk6qt/Login%20APK%20%28kesiswaan%29.png?dl=0&raw=1)
-2. Home Dashboard
+## 2. Home Dashboard
 ![Beranda (Kesiswaan1).png](https://www.dropbox.com/s/vjtitbc58kldovk/Beranda%20%28Kesiswaan1%29.png?dl=0&raw=1)
-3. Input Data Siswa (CRUD & Search)
+## 3. Input Data Siswa (CRUD & Search)
 ![Menu (Data Siswa).png](https://www.dropbox.com/s/rfnkqlfjptr8oh7/Menu%20%28Data%20Siswa%29.png?dl=0&raw=1)
 4. Input Data Guru (CRUD & Search)
 ![Menu (Data Guru).png](https://www.dropbox.com/s/simqg5v3oc8pse6/Menu%20%28Data%20Guru%29.png?dl=0&raw=1)
