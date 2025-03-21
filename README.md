@@ -1,6 +1,6 @@
 # Aplikasi Sistem Manajemen Sekolah Trisoko  
 ------------------------
-ini adalah Project Kuliah Kerja Praktek (KKP) yang dilaksanakan di sekolah Trisoko. Disini kami membuat Sistem manajemen sekolah untuk bagian kesiswaan, administrasi dan inventory.
+ini adalah Project Kuliah Kerja Praktek / Magang (KKP) yang dilaksanakan di sekolah SMP Trisoko, Jakarta Timur dan dilakukan pada bulan Mei sd Juli 2022. Mengembangkan aplikasi manajemen sekolah untuk memudahkan administrasi sekolah, meliputi pendataan jadwal pelajaran, siswa, guru, kelas, serta pembayaran SPP dan Non-SPP.
 
 ## Features
 ------------------------
